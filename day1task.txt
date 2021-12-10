@@ -1,0 +1,36 @@
+1.Difference between HTTP1.1 vs HTTP2
+
+     HTTP1.1:
+        *HTTP1 loads a single request for every TCP connection.
+        *detailed control over prioritization is not possible.
+        * compress HTTP messages to make them smaller.
+
+
+     HTTP2:
+       * while HTTP2 avoids network delay by using multiplexing.
+       *developers have detailed control over prioritization.
+       *uses a more advanced compression method called HPACK
+
+
+
+2.objects and its internal representation in Javascript
+
+    *objects are most important datatype in Javascript
+    *objects is unordered collections of related data in the
+     form of "key:value" pairs.
+    *this keys can be variables or functions
+    
+    example:
+            
+            let bike = {
+                name: 'SuperSport', 
+                maker:'Ducati', 
+                engine:'937cc'
+                }
+
+    *the properties of an object can be accessed by dot notation.
+
+                synyax:
+                        objectName.propertyName
+
+        
